@@ -14,8 +14,6 @@ module Accelerator #(
     input  logic [ADDR_WIDTH - 1: 0] control_addr_o,
     input  logic [CTRL_WIDTH - 1: 0] control_mosi_o,
     output logic [CTRL_WIDTH - 1: 0] control_miso_i,
-    input  logic               [2:0] control_cti_o,
-    input  logic               [1:0] control_bte_o,
 
     output logic done_interrupt_o,
 
